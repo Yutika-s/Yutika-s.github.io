@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <title>Yutika | Portfolio</title>
+</head>
+<body>
+
+    <header>
+        <h2 class="logo" id="logo">Yutika</h2>
+        <nav class="navigation">
+            <a href="index.html" class="active">Home</a>
+            <a href="about.html">About</a>
+            <a href="essays.html">Writing</a>
+            <a href="codes.html">Codes</a>
+            <a href="bookshelf.html">Bookshelf</a>
+            <label id="dark-change"></label>
+
+        </nav>
+    </header>
+
+    <section class="parallax">
+        <img src="public/hills/hill1.png" alt="hill1" id="hill1">
+        <img src="public/hills/hill2.png" alt="hill2" id="hill2">
+        <img src="public/hills/hill3.png" alt="hill3" id="hill3">
+        <img src="public/hills/hill4.png" alt="hill4" id="hill4">
+        <img src="public/hills/hill5.png" alt="hill5" id="hill5">
+        <img src="public/hills/tree.png" alt="tree" id="tree">
+        <h2 id="text"><span id="typing-text"></span></u>|</h2>
+        <img src="public/hills/leaf.png" alt="leaf" id="leaf">
+        <img src="public/hills/plant.png" alt="plant" id="plant">
+    </section>
+
+    <section class="contact">
+        <h2>Say Hi!</h2>
+        <div class="email">
+            <form id="contact-form">
+                <div class="form-columns">
+                    <div class="form-column">
+                        <input type="text" id="name" name="name" placeholder="Name" required>
+                        <input type="email" id="email" name="email" placeholder="Email" required>
+                        <input type="text" name="country" placeholder="Country" required>
+                    </div>
+                    <div class="form-column">
+                        <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                        <textarea id="message" name="message" placeholder="Message" required></textarea>
+                    </div>
+                </div>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+    <div class="footer-icons">
+        <a class="social-icons" href="mailto:yutika.subandh@gmail.com"><img src="public/socials/email.png" alt="email icon"></a>
+        <a class="social-icons" href="https://twitter.com/Yuts_s"><img src="public/socials/twitter.png" alt="twitter icon"></a>
+        <a class="social-icons" href="https://github.com/Yutika-s"><img src="public/socials/git.png" alt="github icon"></a>
+        <a class="social-icons" href="https://www.linkedin.com/in/yutika-subandh/"><img src="public/socials/linkedin.png" alt="linkedin icon"></a>
+    </div>
+        <div class="copyright">
+            <p>Copyright Ⓒ 2023</p>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <title>Yutika | Portfolio</title>
+</head>
+<body id="gradient-background">
+
+    <header>
+        <h2 class="logo" id="logo">Yutika</h2>
+        <nav class="navigation">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="essays.html">Writing</a>
+            <a href="codes.html">Codes</a>
+            <a href="bookshelf.html" class="active">Bookshelf</a>
+            <label id="dark-change"></label>
+
+        </nav>
+    </header>
+
+
+
+
+    <section class="bookshelf-body" id="bookshelf">
+        <h2 id="bookshelf-heading">Welcome to my Bookshelf!</h2>
+        <p>Here you will find summaries, tid-bit notes and my opinions on the books I've read so far.</p>
+        
+        <div class="book-filter container">
+            <span class="filter-item active-filter" data-filter="all">All</span>
+            <span class="filter-item" data-filter="fiction">Fiction</span>
+            <span class="filter-item" data-filter="nonfic">Non-Fiction</span>
+        </div>
+
+        <section class="book container">
+
+            <!-- Book Box 1 -->
+            <div class="book-box nonfic">
+                <img src="public/books/breath.jpg" alt="When Breath Becomes Air" class="book-img">
+                <h2 class="category">Non-Fiction</h2>
+                <a href="book-page.html" class="book-title">
+                    When Breath Becomes Air
+                </a>  
+                <span>Paul Kalanithi</span>
+
+            </div>
+
+            <!-- Book Box 2 -->
+            <div class="book-box fiction">
+                <img src="public/books/siddhartha.jpg" alt="Siddhartha" class="book-img">
+                <h2 class="category">Fiction</h2>
+                <a href="book-page.html" class="book-title">
+                    Siddhartha
+                </a>
+                <span>Herman Hesse</span>  
+            </div>
+
+            <!-- Book Box 3 -->
+            <div class="book-box fiction">
+                <img src="public/books/jane.jpg" alt="Jane Eyre" class="book-img">
+                <h2 class="category">Fiction</h2>
+                <a href="book-page.html" class="book-title">
+                    Jane Eyre
+                </a>  
+                <span>Charlotte Brontë</span>
+            </div>
+
+            <!-- Book Box 4 -->
+            <div class="book-box fiction">
+                <img src="public/books/book_thief.jpg" alt="The Book Thief" class="book-img">
+                <h2 class="category">Fiction</h2>
+                <a href="book-page.html" class="book-title">
+                    The Book Thief
+                </a>  
+                <span>Markus Zusak</span>
+            </div>
+
+            <!-- Book Box 1 -->
+            <div class="book-box nonfic">
+                <img src="public/books/breath.jpg" alt="When Breath Becomes Air" class="book-img">
+                <h2 class="category">Non-Fiction</h2>
+                <a href="book-page.html" class="book-title">
+                    When Breath Becomes Air
+                </a>  
+                <span>Paul Kalanithi</span>
+
+            </div>
+
+            <!-- Book Box 2 -->
+            <div class="book-box fiction">
+                <img src="public/books/siddhartha.jpg" alt="Siddhartha" class="book-img">
+                <h2 class="category">Fiction</h2>
+                <a href="book-page.html" class="book-title">
+                    Siddhartha
+                </a>
+                <span>Herman Hesse</span>  
+            </div>
+
+            <!-- Book Box 3 -->
+            <div class="book-box fiction">
+                <img src="public/books/jane.jpg" alt="Jane Eyre" class="book-img">
+                <h2 class="category">Fiction</h2>
+                <a href="book-page.html" class="book-title">
+                    Jane Eyre
+                </a>  
+            </div>
+
+            <!-- Book Box 4 -->
+            <div class="book-box fiction">
+                <img src="public/books/book_thief.jpg" alt="The Book Thief" class="book-img">
+                <h2 class="category">Fiction</h2>
+                <a href="book-page.html" class="book-title">
+                    The Book Thief
+                </a>  
+                <span>Markus Zusak</span>
+            </div>
+
+        </section>
+    </section>
+
+
+
+
+    <footer class="bookshelf-footer">
+        <div class="footer-icons">
+            <a class="social-icons" href="mailto:yutika.subandh@gmail.com"><img src="public/socials/email.png" alt="email icon"></a>
+            <a class="social-icons" href="https://twitter.com/Yuts_s"><img src="public/socials/twitter.png" alt="twitter icon"></a>
+            <a class="social-icons" href="https://github.com/Yutika-s"><img src="public/socials/git.png" alt="github icon"></a>
+            <a class="social-icons" href="https://www.linkedin.com/in/yutika-subandh/"><img src="public/socials/linkedin.png" alt="linkedin icon"></a>
+        </div>
+            <div class="copyright">
+                <p>Copyright Ⓒ 2023</p>
+            </div>
+        </footer>
+
+        <!-- JQuery -->
+        <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+
+        <!-- JS Link -->
+        <script src="index.js"></script>
+    
+</body>
+</html>
