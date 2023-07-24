@@ -56,7 +56,7 @@ darkMode.addEventListener('click',function(){
 
 // Typing Text
 
-const words = ['Yutika','Developer','Product Geek', 'Writer', 'Climate Activist', 'Runner' ]; // Add your own words here
+const words = ['Yutika','Developer','Runner', 'Product Geek', 'Writer', 'Climate Activist' ]; // Add your own words here
 let currentIndex = 0;
 
 

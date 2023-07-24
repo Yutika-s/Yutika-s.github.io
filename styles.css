@@ -18,19 +18,19 @@ body{
 label{
     position: absolute;
     border: 2px solid #f9f9f9;
-    border-radius: 20px;
-    width: 45px;
-    height: 26px;
-    right: 20px;
-    top: 20px;
+    border-radius: 1.25rem;
+    width: 2.8rem;
+    height: 1.6rem;
+    right: 1.25rem;
+    top: 1.25rem;
 
 }
 
 label:before {
     position: absolute;
     content: "";
-    width: 20px;
-    height: 20px;
+    width: 1.25rem;
+    height: 1.25rem;
     left: 1px;
     top: 1px;
     border-radius: 50%;
@@ -43,7 +43,7 @@ label:before {
 }
 
 label.active:before{
-    left: 20px;
+    left: 1.25rem;
     background: #151515;
     background-image: image-set(url('public/moon.png'));
     background-position: center;
@@ -58,7 +58,7 @@ body.night{
 #text.night{
     color: #151515;
     position: absolute;
-    font-size: 5em;
+    font-size: 5rem;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, .2) ;
 }
 
@@ -74,7 +74,7 @@ header{
     top: 0;
     left: 0;
     width: 100%;
-    padding: 30px 100px;
+    padding: 1.9rem 6.25rem;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -82,10 +82,10 @@ header{
 }
 
 .logo{
-    font-size: 2em;
+    font-size: 2rem;
     color: #359381 ;
     pointer-events: none;
-    margin-right: 100px;
+    margin-right: 6.25rem;
     cursor: pointer;
     
 }
@@ -94,8 +94,8 @@ header{
     text-decoration: none;
     color: #359381 ;
     padding: 6px 15px;
-    border-radius: 20px;
-    margin: 0 10px;
+    border-radius: 1.25rem;
+    margin: 0 0.6rem;
     font-weight: 600;
 }
 
@@ -117,7 +117,7 @@ header{
 
 #text{
     position: absolute;
-    font-size: 5em;
+    font-size: 5rem;
     color: #fff;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, .2) ;
 }
@@ -163,13 +163,13 @@ header{
 /* Say Hi/Contact Section */
 
 .email{
-    padding: 0 500px 0 500px;
+    padding: 0 31.25rem 0 31.25rem;
 }
 
 .contact{
     position: relative;
     background: #003329;
-    padding: 70px;
+    padding: 4.4rem;
     max-height: fit-content;
 }
 
@@ -177,7 +177,7 @@ header{
     font-family: 'Pacifico', cursive;
     font-size: 3em;
     color: #fff;
-    margin-bottom: 10px;
+    margin-bottom: 0.6rem;
     text-align: center;
 }
 
@@ -191,7 +191,7 @@ form {
   .form-columns{
     display: flex;
     justify-content: center;
-    margin-bottom: 10px;
+    margin-bottom: 0.6rem;
     align-items: flex-start;
   }
 .form-column{
@@ -200,22 +200,22 @@ form {
   
   input,
   textarea {
-    width: 600px;
-    padding: 10px;
-    margin-bottom: 10px;
+    width: 37.5rem;
+    padding: 0.6rem;
+    margin-bottom: 0.6rem;
     border: 1px solid #ccc;
     border-radius: 4px;
     background: transparent;
   }
   
   #message{
-    height: 95px;
+    height: 5.94rem;
   }
 
   button {
     display: block;
     margin: 0 auto;
-    padding: 10px 20px;
+    padding: 0.6rem 1.25rem;
     border: none;
     border-radius: 4px;
     background-color: #359381;
@@ -227,11 +227,11 @@ form {
 
 .footer{
     position: relative;
-    padding: 10px auto 0px auto;
+    padding: 0.6rem auto 0px auto;
     background: #003329;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 0.6rem;
 }
 
 .footer-icons{
@@ -242,22 +242,22 @@ form {
 
 .social-icons{
     display: flex;
-    padding: 0 24px;
+    padding: 0 1.5rem;
 }
 
 .copyright{
     font-size: small;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
 }
 
 .footer p{
     color:#359381;
     font-size: small;
-    margin-top: 10px;
+    margin-top: 0.6rem;
     text-align: center;
     padding-top: 5px;
-    padding-bottom: 20px;
+    padding-bottom: 1.25rem;
 }
 
 /* Bookshelf Section */
@@ -299,7 +299,7 @@ form {
 .view-toggle{
     display: flex;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 
 .view-toggle button{
@@ -326,7 +326,7 @@ form {
 .active-filter{
     background-color: #359381;
     color: #fff;
-    padding: 4px 10px;
+    padding: 4px 0.6rem;
     border-radius: 4px ;
 }
 
@@ -346,8 +346,8 @@ form {
 
 
 .book-img{
-    width: 100%;
-    height: 500px;
+    width: 80%;
+    height: 21.9rem;
     object-fit: cover;
     object-position: center;
     border-radius: 0.5rem;
@@ -375,4 +375,53 @@ form {
 .post-header{
     width: 100%;
     height: 500px;
+    background-color: #003329;
+}
+
+.book-container{
+    max-width:800px;
+    margin: auto;
+    width: 100% ;
+}
+
+.header-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4rem !important;
+}
+
+.to-shelf{
+    color: #f9f9f9;
+    font-size: 0.9rem;
+}
+
+.header-title{
+    width: 90%;
+    font-size: 2.6rem;
+    color: #f9f9f9;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.header-img{
+    width: 40%;
+    height: 40%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.book-content{
+    margin-top: 10rem !important;
+}
+
+.sub-heading{
+    font-size: 1.2rem;
+}
+
+.post-text{
+    font-size: 1rem;
+    line-height: 1.7rem;
+    margin: 1rem 0;
+    text-align: justify;
 }
