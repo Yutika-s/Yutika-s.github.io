@@ -279,16 +279,29 @@ form {
     text-align: center;
 }
 
-#bookshelf-heading{
-    font-size: 5em;
+.bookshelf-heading{
+    font-size: 5rem;
     color: #fff;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, .2) ;
     text-align: center;
     margin-top: 10%;
     margin-left: 2rem;
     padding-top: 5rem;
+    cursor: default;
 }
 
+#wordToBookshelf{
+    font-size: 3rem;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .2) ;
+    text-align: center;
+    cursor: default;
+}
+
+#wordToBookshelf :hover{
+    color: transparent;
+    text-shadow: none;
+}
 .bookshelf-body p{
     color: #fff;
     text-align: center;
@@ -424,4 +437,27 @@ form {
     line-height: 1.7rem;
     margin: 1rem 0;
     text-align: justify;
+}
+
+/* About Section */
+
+.about-me{
+    height: 100vh;
+    text-align: center;
+}
+
+.about-me h2{
+    font-size: 5rem;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .2) ;
+    text-align: center;
+    margin-top: 10%;
+    margin-left: 2rem;
+    padding-top: 5rem;
+}
+
+.about-me p{
+    padding: 2rem 5rem ;
+    color: #fff;
+    font-size: large;
 }
