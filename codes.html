@@ -4,31 +4,83 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="bookshelf.css">
+    <link rel="stylesheet" href="codes.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
     <title>Yutika | Portfolio</title>
 </head>
-<body>
+<body id="gradient-background">
     <header>
         <h2 class="logo" id="logo">Yutika</h2>
         <nav class="navigation">
             <a href="index.html" >Home</a>
             <a href="about.html">About</a>
-            <a href="essays.html">Writing</a>
             <a href="codes.html" class="active">Codes</a>
+            <a href="essays.html">Writing</a>
             <a href="bookshelf.html">Bookshelf</a>
             <label id="dark-change"></label>
 
         </nav>
     </header>
 
-    <section style="height: 100vh;">
-        <h2 style=" padding-top: 300px;">Oops! This page is currently Under Construction.</h2>
-        <h3>Please click on any of the links below to find out more about me!</h3>
-        </section>
+    <section class="code-body" id="codes">
+        <h2 class="code-heading">CODE SNIPPETS</h2>
+        <p>Here you'll find quirky projects I take up to solve little problems or just to have some fun while I'm bored!</p>
 
-    <footer class="footer">
+        <section class="codes container">
+
+            <!-- Code 1 -->
+            <div class="code-box">
+                <img src="public/codes/giiist.jpg" alt="Article Summariser">
+                <h2>AI Article Summariser</h2>
+                <a href="https://gleaming-syrniki-9f0ace.netlify.app/">
+                    GIIIST
+                </a>
+            </div>
+
+            
+            <!-- Code 2 -->
+            <div class="code-box">
+                <img src="public/codes/simon.jpg" alt="Article Summariser">
+                <h2>Memory Game</h2>
+                <a href="https://stellular-strudel-a80658.netlify.app/">
+                    SIMON SAYS
+                </a>
+            </div>
+
+            <!-- Code 3 -->
+            <div class="code-box">
+                <img src="public/codes/to do list app.jpg" alt="to do">
+                <h2>WHAT TO DO?</h2>
+                <a href="https://cozy-caramel-0a1049.netlify.app/">
+                  TO DO!
+                </a>
+            </div>
+
+            <!-- Code 4 -->
+            <div class="code-box">
+                <img src="public/codes/gpt.jpg" alt="to do">
+                <h2>Front-end React App</h2>
+                <a href="https://kaleidoscopic-tulumba-47f896.netlify.app/">
+                  GPT-3 OPEN AI
+                </a>
+            </div>
+
+            <!-- Code 5 -->
+            <div class="code-box">
+                <img src="public/codes/drum.jpg" alt="to do">
+                <h2>Virtual Drumkit</h2>
+                <a href="https://gleaming-pothos-e7c609.netlify.app/">
+                  DRUM-KIT
+                </a>
+            </div>
+        </section>
+    </section>
+
+    <footer class="bookshelf-footer">
         <div class="footer-icons">
             <a class="social-icons" href="mailto:yutika.subandh@gmail.com"><img src="public/socials/email.png" alt="email icon"></a>
             <a class="social-icons" href="https://twitter.com/Yuts_s"><img src="public/socials/twitter.png" alt="twitter icon"></a>
@@ -43,5 +95,7 @@
     <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
     
     <script src="index.js"></script>
+    <script src="dark.js"></script>
+
 </body>
 </html>

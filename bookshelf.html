@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="bookshelf.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Charm:wght@700&display=swap" rel="stylesheet">
     <title>Yutika | Portfolio</title>
 </head>
 <body id="gradient-background">
@@ -16,8 +18,8 @@
         <nav class="navigation">
             <a href="index.html">Home</a>
             <a href="about.html">About</a>
-            <a href="essays.html">Writing</a>
             <a href="codes.html">Codes</a>
+            <a href="essays.html">Writing</a>
             <a href="bookshelf.html" class="active">Bookshelf</a>
             <label id="dark-change"></label>
 
@@ -28,7 +30,7 @@
 
 
     <section class="bookshelf-body" id="bookshelf">
-        <h2 class="bookshelf-heading">Welcome to my</h2><span id="wordToBookshelf"><h2>Bookshelf!</h2></span>
+        <h2 class="bookshelf-heading">Welcome to my</h2><span id="wordToBookshelf"><h2 class="bs">Bookshelf!</h2></span>
         <p>Here you will find summaries, tid-bit notes and my opinions on the books I've read so far.</p>
         
         <div class="book-filter container">
@@ -51,13 +53,13 @@
             </div>
 
             <!-- Book Box 2 -->
-            <div class="book-box fiction">
-                <img src="public/books/siddhartha.jpg" alt="Siddhartha" class="book-img">
-                <h2 class="category">Fiction</h2>
+            <div class="book-box nonfic">
+                <img src="public/books/atomic.jpeg" alt="Atomic Habits" class="book-img">
+                <h2 class="category">Non-Fiction</h2>
                 <a href="book-page.html" class="book-title">
-                    Siddhartha
-                </a>
-                <span>Herman Hesse</span>  
+                    Atomic Habits
+                </a>  
+                <span>James Clear</span>
             </div>
 
             <!-- Book Box 3 -->
@@ -80,18 +82,8 @@
                 <span>Markus Zusak</span>
             </div>
 
+            
             <!-- Book Box 5 -->
-            <div class="book-box fiction">
-                <img src="public/books/sns.jpg" alt="Sense and Sensibility" class="book-img">
-                <h2 class="category">Fiction</h2>
-                <a href="book-page.html" class="book-title">
-                    Sense and Sensibility
-                </a>  
-                <span>Jane Austen</span>
-
-            </div>
-
-            <!-- Book Box 2 -->
             <div class="book-box fiction">
                 <img src="public/books/strange_library.jpg" alt="The Strange Library" class="book-img">
                 <h2 class="category">Fiction</h2>
@@ -101,24 +93,67 @@
                 <span>Haruki Murakami</span>  
             </div>
 
-            <!-- Book Box 3 -->
+            <!-- Book Box 6 -->
             <div class="book-box fiction">
-                <img src="public/books/jane.jpg" alt="Jane Eyre" class="book-img">
+                <img src="public/books/siddhartha.jpg" alt="siddhartha" class="book-img">
                 <h2 class="category">Fiction</h2>
                 <a href="book-page.html" class="book-title">
-                    Jane Eyre
+                    Siddhartha
                 </a>  
+                <span>Herman Hesse</span>
+
             </div>
 
-            <!-- Book Box 4 -->
+            <!-- Book Box 7 -->
+            <div class="book-box nonfic">
+                <img src="public/books/ego.jpg" alt="Ego Is The Enemy" class="book-img">
+                <h2 class="category">Non-Fiction</h2>
+                <a href="book-page.html" class="book-title">
+                    Ego Is The Enemy
+                </a>  
+                <span>Ryan Holiday</span>
+            </div>
+
+            <!-- Book Box 8 -->
+            <div class="book-box nonfic">
+                <img src="public/books/cheese.jpg" alt="Who Moved My Cheese" class="book-img">
+                <h2 class="category">Non-Fiction</h2>
+                <a href="book-page.html" class="book-title">
+                    Who Moved My Cheese?
+                </a>  
+                <span>Dr. Spencer Johnson</span>
+            </div>
+
+            <!-- Book Box 9 -->
+            <div class="book-box nonfic">
+                <img src="public/books/tot.jpg" alt="Tools of Titans" class="book-img">
+                <h2 class="category">Non-Fiction</h2>
+                <a href="book-page.html" class="book-title">
+                    Tools of Titans
+                </a>  
+                <span>Tim Ferris</span>
+            </div>
+
+            <!-- Book Box 10 -->
             <div class="book-box fiction">
-                <img src="public/books/book_thief.jpg" alt="The Book Thief" class="book-img">
+                <img src="public/books/sns.jpg" alt="Sense & Sensibility" class="book-img">
                 <h2 class="category">Fiction</h2>
                 <a href="book-page.html" class="book-title">
-                    The Book Thief
-                </a>  
-                <span>Markus Zusak</span>
+                    Sense & Sensibility
+                </a>
+                <span>Jane Austen</span>  
             </div>
+
+            <!-- Book Box 11 -->
+            <div class="book-box nonfic">
+                <img src="public/books/outliers.jpg" alt="Outliers" class="book-img">
+                <h2 class="category">Non-Fiction</h2>
+                <a href="book-page.html" class="book-title">
+                    Outliers
+                </a>
+                <span>Malcolm Gladwell</span>  
+            </div>
+
 
         </section>
     </section>
@@ -143,6 +178,8 @@
 
         <!-- JS Link -->
         <script src="index.js"></script>
+        <script src="dark.js"></script>
+
     
 </body>
 </html>

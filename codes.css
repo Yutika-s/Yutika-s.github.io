@@ -1,0 +1,35 @@
+.code-body{
+    min-height: 110vh;
+}
+
+.code-heading{
+    font-family: monospace;
+    font-size: 5rem;
+    color: #676767;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .2) ;
+    text-align: center;
+    margin-top: 10%;
+    margin-left: 2rem;
+    padding-top: 5rem;
+    cursor: default;
+}
+
+.code-body p{
+    color: #f9f9f9;
+    text-align: center;
+    padding: 2rem;
+    font-size: large;
+}
+
+.code-box{
+    background: transparent;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+.code-box img{
+    height: 20rem;
+    width: 20rem;
+    border-radius: 1.5rem;
+
+}

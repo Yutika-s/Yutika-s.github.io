@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins',sans-serif;
+    
 }
 
 body{
@@ -35,19 +36,21 @@ label:before {
     top: 1px;
     border-radius: 50%;
     cursor: pointer;
-    background: #A7EDE7 ;
-    background-image: image-set(url('public/sun.png'));
-    background-position: center ;
-    background-size: 120%;
+    background: #151515;
+    background-image: image-set(url('public/moon.png'));
+    background-position: center;
+    background-size: 80%;
+    
     transition: 0.4s;
 }
 
 label.active:before{
     left: 1.25rem;
-    background: #151515;
-    background-image: image-set(url('public/moon.png'));
-    background-position: center;
-    background-size: 80%;
+    background: #A7EDE7 ;
+    background-image: image-set(url('public/sun.png'));
+    background-position: center ;
+    background-size: 120%;
+
 }
 
 body.night{
@@ -66,6 +69,7 @@ body.night{
     color: #f9f9f9;
 
 }
+
 
 /* navbar */
 
@@ -260,204 +264,4 @@ form {
     padding-bottom: 1.25rem;
 }
 
-/* Bookshelf Section */
 
-#gradient-background{
-    background: linear-gradient(to bottom, #DAFFFB, #003329);
-}
-
-#gradient-background.night{
-    background: linear-gradient(to bottom, #151515, #003329);
-}
-
-.bookshelf-body{
-    min-height: 100vh;
-}
-
-.bookshelf-footer{
-    background: transparent;
-    text-align: center;
-}
-
-.bookshelf-heading{
-    font-size: 5rem;
-    color: #fff;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, .2) ;
-    text-align: center;
-    margin-top: 10%;
-    margin-left: 2rem;
-    padding-top: 5rem;
-    cursor: default;
-}
-
-#wordToBookshelf{
-    font-size: 3rem;
-    color: #fff;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, .2) ;
-    text-align: center;
-    cursor: default;
-}
-
-#wordToBookshelf :hover{
-    color: transparent;
-    text-shadow: none;
-}
-.bookshelf-body p{
-    color: #fff;
-    text-align: center;
-    padding: 2rem;
-    font-size: large;
-}
-
-.view-toggle{
-    display: flex;
-    text-align: center;
-    margin-bottom: 1.25rem;
-}
-
-.view-toggle button{
-    padding: 8px 16px;
-    border: none;
-    background-color: #003329;
-    cursor: pointer; 
-}
-
-.book-filter{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    column-gap: 1.5rem;
-    margin-top: 2rem !important;
-}
-
-.filter-item{
-    font-size: 0.9rem;
-    font-weight: 500;
-    cursor: pointer;
-}
-
-.active-filter{
-    background-color: #359381;
-    color: #fff;
-    padding: 4px 0.6rem;
-    border-radius: 4px ;
-}
-
-.book{
-    padding-top: 2rem;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, auto));
-    justify-content: center;
-    gap: 1.5rem;
-}
-
-.book-box{
-    background: transparent;
-    padding: 15px;
-    border-radius: 0.5rem;
-}
-
-
-.book-img{
-    width: 80%;
-    height: 21.9rem;
-    object-fit: cover;
-    object-position: center;
-    border-radius: 0.5rem;
-}
-
-.category{
-    font-size: 0.9rem;
-    font-weight: 500;
-    text-transform: uppercase;
-    color: #151515;
-}
-
-.book-title{
-    font-size: 1.3rem;
-    font-weight: 600;
-    color: #151515;
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
-    overflow: hidden ;
-}
-
-/* Book Posts */
-
-.post-header{
-    width: 100%;
-    height: 500px;
-    background-color: #003329;
-}
-
-.book-container{
-    max-width:800px;
-    margin: auto;
-    width: 100% ;
-}
-
-.header-content{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 4rem !important;
-}
-
-.to-shelf{
-    color: #f9f9f9;
-    font-size: 0.9rem;
-}
-
-.header-title{
-    width: 90%;
-    font-size: 2.6rem;
-    color: #f9f9f9;
-    text-align: center;
-    margin-bottom: 1rem;
-}
-
-.header-img{
-    width: 40%;
-    height: 40%;
-    object-fit: cover;
-    object-position: center;
-}
-
-.book-content{
-    margin-top: 10rem !important;
-}
-
-.sub-heading{
-    font-size: 1.2rem;
-}
-
-.post-text{
-    font-size: 1rem;
-    line-height: 1.7rem;
-    margin: 1rem 0;
-    text-align: justify;
-}
-
-/* About Section */
-
-.about-me{
-    height: 100vh;
-    text-align: center;
-}
-
-.about-me h2{
-    font-size: 5rem;
-    color: #fff;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, .2) ;
-    text-align: center;
-    margin-top: 10%;
-    margin-left: 2rem;
-    padding-top: 5rem;
-}
-
-.about-me p{
-    padding: 2rem 5rem ;
-    color: #fff;
-    font-size: large;
-}
