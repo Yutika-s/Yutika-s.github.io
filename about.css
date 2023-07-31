@@ -1,20 +1,20 @@
+
 .about-me{
     height: 100vh;
-    text-align: center;
 }
 
 .about-me h2{
     font-size: 5rem;
     color: #fff;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, .2) ;
-    text-align: center;
+    text-align: left;
     margin-top: 10%;
     margin-left: 2rem;
-    padding-top: 5rem;
+    padding: 5rem 20rem;
 }
 
-.about-me p{
-    padding: 2rem 5rem ;
+.about-me p,ul{
     color: #fff;
-    font-size: large;
+    font-size: medium;
+    padding: 0.5rem 15rem;
 }

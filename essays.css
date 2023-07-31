@@ -1,0 +1,22 @@
+.essays-body{
+    min-height: 100vh;
+}
+
+.essays-heading{
+    font-family: "Charm",cursive;
+    font-size: 5rem;
+    color: #676767;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .2) ;
+    text-align: center;
+    margin-top: 10%;
+    margin-left: 2rem;
+    padding-top: 5rem;
+    cursor: default;
+}
+
+.essays-body p{
+    color: #f9f9f9;
+    text-align: center;
+    padding: 2rem;
+    font-size: large;
+}
