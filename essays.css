@@ -106,6 +106,13 @@ p{
 .five{
     max-height: fit-content;
     float: inline-end;
+    margin-top: -50px;
+}
+
+.six{
+    position: relative;
+    float: left;
+    margin-top: -1200px;
 }
 
 
